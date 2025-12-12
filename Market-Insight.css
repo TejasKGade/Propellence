@@ -1,0 +1,56 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 910px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Poppins;
+  margin: 40px auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Poppins;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.u-section-1 .u-image-1 {
+  width: 669px;
+  height: 443px;
+  margin: 40px auto 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: Poppins;
+  margin: 19px auto 0 0;
+}
+
+.u-section-1 .u-text-4 {
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 60px;
+  font-family: Poppins;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 825px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 358px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 692px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 225px;
+  }
+}

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Job Details - Propellence</title>
+
+  <!-- Same CSS links as Carrer.html -->
+  <link rel="stylesheet" href="nicepage.css" media="screen">
+  <link rel="stylesheet" href="Carrer.css" media="screen">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { font-family: "Poppins", sans-serif !important; }
+    body { background: #f5f5f5; padding: 20px; }
+    
+    .job-detail-container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .job-header {
+      border-bottom: 2px solid #0077B5;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    .job-header h1 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .job-meta {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .job-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .job-meta-item strong {
+      color: #0077B5;
+    }
+
+    .job-section {
+      margin: 30px 0;
+    }
+
+    .job-section h2 {
+      color: #0077B5;
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .job-section ul {
+      margin-left: 20px;
+      line-height: 1.8;
+    }
+
+    .job-section ul li {
+      margin-bottom: 10px;
+    }
+
+    .apply-section {
+      background: #f8f9fa;
+      padding: 30px;
+      border-radius: 8px;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .apply-btn {
+      background: #0077B5;
+      color: white;
+      padding: 15px 40px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    .apply-btn:hover {
+      background: #005c8a;
+      transform: translateY(-2px);
+    }
+
+    .back-link {
+      color: #0077B5;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="job-detail-container">
+    <a href="Carrer.html" class="back-link">← Back to Careers</a>
+
+    <div class="job-header">
+      <h1 id="jobTitle">Loading...</h1>
+      <div class="job-meta">
+        <div class="job-meta-item">
+          <strong>📍 Location:</strong>
+          <span id="jobLocation">-</span>
+        </div>
+        <div class="job-meta-item">
+          <strong>💼 Type:</strong>
+          <span id="jobType">-</span>
+        </div>
+        <div class="job-meta-item">
+          <strong>⏱️ Experience:</strong>
+          <span id="jobExperience">-</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="job-section">
+      <h2>Job Description</h2>
+      <p id="jobDescription">Loading job details...</p>
+    </div>
+
+    <div class="job-section">
+      <h2>Key Responsibilities</h2>
+      <ul id="jobResponsibilities">
+        <li>Loading...</li>
+      </ul>
+    </div>
+
+    <div class="job-section">
+      <h2>Required Qualifications</h2>
+      <ul id="jobQualifications">
+        <li>Loading...</li>
+      </ul>
+    </div>
+
+    <div class="job-section">
+      <h2>What We Offer</h2>
+      <ul id="jobBenefits">
+        <li>Loading...</li>
+      </ul>
+    </div>
+
+    <div class="apply-section">
+      <h3>Interested in this position?</h3>
+      <p>Send your resume to <strong>careers@propellence.com</strong></p>
+      <a href="mailto:careers@propellence.com?subject=Application for [Job Title]" class="apply-btn">
+        Apply Now via Email
+      </a>
+    </div>
+  </div>
+  <script>
+  // Job database
+  const jobData = {
+    '1': {
+      title: 'Senior Consultant - Technology',
+      location: 'Pune, India',
+      type: 'Full-time',
+      experience: '5-7 years',
+      description: 'We are seeking an experienced Senior Technology Consultant to join our dynamic team. You will work with leading clients to drive digital transformation initiatives and provide strategic technology guidance.',
+      responsibilities: [
+        'Lead technology consulting engagements for enterprise clients',
+        'Develop digital transformation roadmaps and strategies',
+        'Conduct technology assessments and gap analyses',
+        'Manage stakeholder relationships and client communications',
+        'Mentor junior consultants and contribute to knowledge sharing'
+      ],
+      qualifications: [
+        'Bachelor\'s degree in Computer Science, Engineering, or related field',
+        '5-7 years of technology consulting experience',
+        'Strong understanding of enterprise architecture and cloud technologies',
+        'Excellent communication and presentation skills',
+        'Experience with Agile and DevOps methodologies'
+      ],
+      benefits: [
+        'Competitive salary package with performance bonuses',
+        'Comprehensive health insurance for you and your family',
+        'Professional development and certification support',
+        'Flexible work arrangements and remote work options',
+        'Opportunity to work with leading global clients',
+        'Collaborative and inclusive work culture'
+      ]
+    },
+    '2': {
+      title: 'Research Associate - Market Analysis',
+      location: 'Remote',
+      type: 'Contract',
+      experience: '2-4 years',
+      description: 'Join our research team to conduct in-depth market analysis and competitive intelligence for our consulting clients across various industries.',
+      responsibilities: [
+        'Conduct primary and secondary market research',
+        'Analyze market trends and competitive landscapes',
+        'Prepare detailed research reports and presentations',
+        'Support consultants with data-driven insights',
+        'Maintain research databases and knowledge repositories'
+      ],
+      qualifications: [
+        'Bachelor\'s or Master\'s degree in Business, Economics, or related field',
+        '2-4 years of research or analyst experience',
+        'Strong analytical and data interpretation skills',
+        'Proficiency in Excel, PowerPoint, and research tools',
+        'Excellent written and verbal communication skills'
+      ],
+      benefits: [
+        'Competitive contract compensation',
+        '100% remote work flexibility',
+        'Access to premium research databases and tools',
+        'Flexible working hours',
+        'Opportunity to work on diverse industry projects',
+        'Potential for contract-to-permanent conversion'
+      ]
+    },
+    '3': {
+      title: 'Business Analyst',
+      location: 'Pune, India / Germany',
+      type: 'Full-time',
+      experience: '3-5 years',
+      description: 'We are looking for a talented Business Analyst to bridge business requirements with technical solutions. This role offers international exposure with opportunities in both India and Germany.',
+      responsibilities: [
+        'Gather and document business requirements from stakeholders',
+        'Create process flow diagrams and functional specifications',
+        'Facilitate workshops and requirements gathering sessions',
+        'Collaborate with development teams to ensure solution alignment',
+        'Support UAT and project implementation activities'
+      ],
+      qualifications: [
+        'Bachelor\'s degree in Business, IT, or related field',
+        '3-5 years of business analysis experience',
+        'Strong understanding of SDLC and Agile methodologies',
+        'Experience with requirements management tools',
+        'Excellent problem-solving and communication skills'
+      ],
+      benefits: [
+        'International work experience in India and Germany',
+        'Relocation assistance and visa sponsorship',
+        'Competitive salary with overseas allowances',
+        'Health insurance and travel benefits',
+        'Cross-cultural training and language support',
+        'Career growth in a global environment'
+      ]
+    },
+    '4': {
+      title: 'Junior Consultant - Strategy',
+      location: 'Pune, India',
+      type: 'Full-time',
+      experience: '0-2 years',
+      description: 'Kick-start your consulting career with Propellence. We offer comprehensive training and mentorship to fresh graduates passionate about strategy consulting.',
+      responsibilities: [
+        'Support senior consultants in client engagements',
+        'Conduct research and data analysis',
+        'Prepare client presentations and deliverables',
+        'Participate in team meetings and brainstorming sessions',
+        'Contribute to internal knowledge development initiatives'
+      ],
+      qualifications: [
+        'Bachelor\'s or Master\'s degree from a reputed institution',
+        '0-2 years of experience (fresh graduates welcome)',
+        'Strong analytical and problem-solving abilities',
+        'Excellent communication and interpersonal skills',
+        'Willingness to learn and adapt in a fast-paced environment'
+      ],
+      benefits: [
+        'Comprehensive onboarding and training program',
+        'Mentorship from senior consultants',
+        'Competitive entry-level salary',
+        'Health insurance coverage',
+        'Learning and development budget',
+        'Fast-track career progression opportunities'
+      ]
+    }
+  };
+
+  // Get job ID from URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const jobId = urlParams.get('id');
+
+  // Load job details
+  if (jobId && jobData[jobId]) {
+    const job = jobData[jobId];
+    
+    document.getElementById('jobTitle').textContent = job.title;
+    document.getElementById('jobLocation').textContent = job.location;
+    document.getElementById('jobType').textContent = job.type;
+    document.getElementById('jobExperience').textContent = job.experience;
+    document.getElementById('jobDescription').textContent = job.description;
+    
+    // Populate responsibilities
+    const respList = document.getElementById('jobResponsibilities');
+    respList.innerHTML = job.responsibilities.map(item => `<li>${item}</li>`).join('');
+    
+    // Populate qualifications
+    const qualList = document.getElementById('jobQualifications');
+    qualList.innerHTML = job.qualifications.map(item => `<li>${item}</li>`).join('');
+    
+    // Populate benefits (What We Offer)
+    const benefitsList = document.getElementById('jobBenefits');
+    benefitsList.innerHTML = job.benefits.map(item => `<li>${item}</li>`).join('');
+    
+    // Update Gmail compose link
+    const applyBtn = document.querySelector('.apply-btn');
+    const emailSubject = `Application for ${job.title}`;
+    const emailBody = ``;
+  
+    // Gmail compose URL format
+    applyBtn.href = `https://mail.google.com/mail/?view=cm&fs=1&to=careers@propellence.com&su=${encodeURIComponent(emailSubject)}&body=${emailBody}`;
+    applyBtn.target = "_blank";
+    
+    // Update page title
+    document.title = `${job.title} - Propellence Careers`;
+  } else {
+    document.querySelector('.job-detail-container').innerHTML = `
+      <h1>Job Not Found</h1>
+      <p>The job posting you're looking for doesn't exist.</p>
+      <a href="Carrer.html" class="back-link">← Back to Careers</a>
+    `;
+  }
+</script>
+</body>
+</html>
