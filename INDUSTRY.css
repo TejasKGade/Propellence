@@ -1,0 +1,79 @@
+.industries-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  font-family: Poppins, sans-serif;
+}
+
+.industry-flow {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+/* FLOAT IMAGE — THIS IS THE KEY */
+.industry-float-img {
+  float: left;
+  width: 420px;
+  object-fit: cover;
+  border-radius: 24px;
+  margin: 0 40px 20px 0;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+}
+
+/* Chip */
+.industry-chip {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 6px 14px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+}
+
+/* Text */
+.industry-flow h2 {
+  margin: 10px 0 14px;
+  font-size: 30px;
+}
+
+.industry-flow h4 {
+  margin-top: 24px;
+  font-size: 30px;
+}
+
+.industry-flow p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 14px;
+  color: #374151;
+}
+
+.industry-flow ul {
+  padding-left: 18px;
+}
+
+.industry-flow ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #374151;
+  font-size: 16px;
+}
+
+/* CLEAR FLOAT FOR NEXT SECTION */
+.industry-flow::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .industry-float-img {
+    float: none;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+}

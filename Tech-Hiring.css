@@ -1,0 +1,42 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 605px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Poppins;
+  margin: 40px auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Poppins;
+  font-size: 1rem;
+  margin: 40px auto 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 615px;
+  height: 377px;
+  margin: 22px auto 20px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 559px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 331px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 436px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 208px;
+  }
+}

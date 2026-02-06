@@ -1,0 +1,14 @@
+<section class="u-clearfix u-container-align-center u-grey-5 u-section-1" id="sec-fc08">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <div class="u-container-style u-group u-radius u-shape-round u-white u-group-1">
+        <div class="u-container-layout u-valign-middle">
+          <h2 class="u-align-center u-text">CARRERS</h2>
+          <p class="u-align-center">
+            We are looking for consultants and research associates to join our growing team.<br> 
+            If you have past experience in any of our described verticals,<br>feel free to send us your resume 
+            in PDF format to <br><strong>careers@propellence.com</strong>.
+          </p>  
+        </div>
+      </div>
+    </div>
+  </section>

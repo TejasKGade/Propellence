@@ -1,0 +1,267 @@
+/* Apply Poppins ONLY to the hero section text */
+  #block-2,
+  #block-2 * {
+    font-family: 'Poppins', sans-serif !important;
+  }
+/* Apply Poppins to ALL text inside services section */
+  .services-section,
+  .services-section * {
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  /* Title styling */
+  .service-title a {
+    color: #000000 !important;       /* white titles */
+ 
+  }
+
+  /* Paragraph / description text */
+  .service-description {
+    color: #000000 !important;       /* softer white/grey */
+    font-size: 16px;                 /* change paragraph size */
+    line-height: 1.6;
+    text-align: left;                /* change to center / right */
+  }
+
+  /* Service chip label text */
+  .service-chip {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  /* Optional: control alignment of whole content block */
+  .service-content {
+    text-align: left;                /* change to center / right */
+  } 
+ /* FIX SERVICE TITLE ALIGNMENT */
+.service-title {
+  margin: 0 0 12px 0;     /* remove paragraph spacing issues */
+  padding: 0;
+  line-height: 1.2;
+}
+
+.service-title a {
+  display: inline;        /* remove button-like behaviour */
+  padding: 0 !important;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000 !important;
+}
+
+/* override Nicepage button classes causing misalignment */
+.service-title .u-btn {
+  background: none !important;
+  border: none !important;
+  min-height: auto !important;
+}
+
+ /* --------- GLOBAL SERVICES SECTION --------- */
+    .services-hero {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px 10px;
+    }
+
+    .services-hero .u-text-1 {
+      margin-bottom: 8px;
+      font-size: 40px;
+    }
+
+    .services-hero .u-text-2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 22px;
+      color: #111827;
+    }
+
+    .services-hero .u-text-3 {
+      max-width: 780px;
+      margin-top: 0;
+      color: #4b5563;
+      line-height: 1.7;
+    }
+
+    /* Main wrapper for all service rows */
+    .services-section {
+      background: #FFFFFF;
+      padding: 20px 0 70px;
+    }
+
+    .services-wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+    
+    /* Each row */
+.service-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.05fr);
+  gap: 40px;
+  align-items: center;
+
+  background: transparent;   /* remove black fill */
+  border: 1.5px solid #000;  /* stroke */
+  border-radius: 24px;
+
+  padding: 26px 26px 26px 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+    /* Soft gradient accent on left edge */
+    .service-item::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .service-content,
+    .service-media {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* TEXT BLOCK */
+    .service-title {
+      font-size: 22px;
+      margin: 0 0 10px;
+    }
+
+    .service-title a {
+      text-decoration: none;
+      color: #111827;
+    }
+
+    .service-title a:hover {
+      color: #16a34a;
+    }
+
+    .service-description {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: #4b5563;
+      line-height: 1.8;
+    }
+
+    /* IMAGE BLOCK */
+    .service-media {
+      border-radius: 22px;
+      overflow: hidden;
+      min-height: 260px;          /* taller image without stretching width */
+    }
+
+    .service-media-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .service-media-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;          /* fills height cleanly */
+      display: block;
+    }
+
+    /* subtle overlay */
+    .service-media-inner::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.05)
+      );
+      mix-blend-mode: multiply;
+      opacity: 0.65;
+      pointer-events: none;
+    }
+
+    /* small label chip on image */
+    .service-chip {
+      position: absolute;
+      left: 16px;
+      bottom: 16px;
+      padding: 6px 13px;
+      border-radius: 999px;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      background: rgba(255, 255, 255, 0.12);
+      color: #f9fafb;
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      z-index: 2;
+    }
+
+    /* alternate layout: image left for 2nd & 4th */
+    .service-item--reverse {
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.05fr);
+    }
+
+    .service-item--reverse .service-media {
+      order: 1;
+    }
+
+    .service-item--reverse .service-content {
+      order: 2;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 992px) {
+      .service-item,
+      .service-item--reverse {
+        grid-template-columns: 1fr;
+        padding: 22px 18px;
+      }
+
+      .service-media,
+      .service-item--reverse .service-media {
+        order: 1;
+        min-height: 220px;
+      }
+
+      .service-content,
+      .service-item--reverse .service-content {
+        order: 2;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .services-hero {
+        padding: 30px 16px 5px;
+      }
+
+      .services-hero .u-text-1 {
+        font-size: 32px;
+      }
+
+      .services-hero .u-text-2 {
+        font-size: 18px;
+      }
+
+      .service-item {
+        padding: 18px 14px 20px;
+        border-radius: 20px;
+        gap: 22px;
+      }
+
+      .service-media {
+        border-radius: 18px;
+        min-height: 200px;
+      }
+
+      .service-title {
+        font-size: 20px;
+      }
+    }
