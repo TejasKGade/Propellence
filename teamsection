@@ -1,0 +1,399 @@
+ <!-- Team Section with Clickable Members -->
+<section class="u-align-center u-clearfix u-container-align-center u-section-4" id="block-4">
+  <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-sm u-sheet-1">
+    <h2 class="u-align-center u-custom-font u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0"> Our Team</h2>
+    <div class="u-expanded-width u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        <!-- Team Member 1 -->
+        <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-list-item-1 team-member" data-member-id="1" data-name="Roxie Swanson" data-position="Vice President" data-bio="Roxie Swanson is a seasoned executive with over 20 years of experience in the consulting industry. She oversees strategic planning and business development for the company, driving our vision forward. Her expertise spans across multiple sectors including technology, healthcare, and financial services." data-email="roxie.swanson@company.com" data-phone="+1 (555) 123-4567" data-linkedin="https://linkedin.com/in/roxieswanson" data-twitter="https://twitter.com/roxieswanson">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+            <div alt="" class="u-image u-image-circle u-image-1" src="images/roxie.jpg" data-image-width="500" data-image-height="500"></div>
+            <h5 class="u-text u-text-2">Roxie Swanson</h5>
+            <p class="u-text u-text-3">Vice President</p>
+          </div>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-list-item-2 team-member" data-member-id="2" data-name="Jennie Clarke" data-position="Secretary" data-bio="Jennie Clarke is the dedicated Secretary at our company, responsible for coordinating administrative tasks and supporting executive operations. With her organizational skills and attention to detail, she ensures our office runs smoothly and efficiently." data-email="jennie.clarke@company.com" data-phone="+1 (555) 234-5678" data-linkedin="https://linkedin.com/in/jennieclarke" data-twitter="https://twitter.com/jennieclarke">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+            <div alt="" class="u-image u-image-circle u-image-2" src="images/jennie.jpg" data-image-width="500" data-image-height="500"></div>
+            <h5 class="u-text u-text-4">Jennie Clarke</h5>
+            <p class="u-text u-text-5">Secretary</p>
+          </div>
+        </div>
+        
+        <!-- Add more team members here -->
+        <!-- Team Member 3 -->
+        <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-list-item-3 team-member" data-member-id="3" data-name="Hunter Norton" data-position="HR Manager" data-bio="Hunter Norton manages our human resources department, focusing on talent acquisition, employee development, and workplace culture. He is committed to creating a positive work environment where employees can thrive and grow professionally." data-email="hunter.norton@company.com" data-phone="+1 (555) 345-6789" data-linkedin="https://linkedin.com/in/hunternorton" data-twitter="https://twitter.com/hunternorton">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+            <div alt="" class="u-image u-image-circle u-image-3" src="images/hunter.jpg" data-image-width="500" data-image-height="500"></div>
+            <h5 class="u-text u-text-6">Hunter Norton</h5>
+            <p class="u-text u-text-7">HR Manager</p>
+          </div>
+        </div>
+        
+        <!-- Team Member 4 -->
+        <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-list-item-4 team-member" data-member-id="4" data-name="Betty Nilson" data-position="Chief Accountant" data-bio="Betty Nilson leads our accounting department with precision and expertise. She ensures financial accuracy, oversees all accounting operations, and provides strategic financial guidance to our executive team. Her attention to detail is unmatched." data-email="betty.nilson@company.com" data-phone="+1 (555) 456-7890" data-linkedin="https://linkedin.com/in/bettynilson" data-twitter="https://twitter.com/bettynilson">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+            <div alt="" class="u-image u-image-circle u-image-4" src="images/betty.jpg" data-image-width="500" data-image-height="500"></div>
+            <h5 class="u-text u-text-8">Betty Nilson</h5>
+            <p class="u-text u-text-9">Chief Accountant</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="u-align-center u-clearfix u-container-align-center u-section-4" id="block-4">
+  <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-sm u-sheet-1">
+    <div class="u-expanded-width u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        <!-- Team Member 1 -->
+        <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-list-item-1 team-member" data-member-id="1" data-name="Roxie Swanson" data-position="Vice President" data-bio="Roxie Swanson is a seasoned executive with over 20 years of experience in the consulting industry. She oversees strategic planning and business development for the company, driving our vision forward. Her expertise spans across multiple sectors including technology, healthcare, and financial services." data-email="roxie.swanson@company.com" data-phone="+1 (555) 123-4567" data-linkedin="https://linkedin.com/in/roxieswanson" data-twitter="https://twitter.com/roxieswanson">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+            <div alt="" class="u-image u-image-circle u-image-1" src="images/roxie.jpg" data-image-width="500" data-image-height="500"></div>
+            <h5 class="u-text u-text-2">Roxie Swanson</h5>
+            <p class="u-text u-text-3">Vice President</p>
+          </div>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-list-item-2 team-member" data-member-id="2" data-name="Jennie Clarke" data-position="Secretary" data-bio="Jennie Clarke is the dedicated Secretary at our company, responsible for coordinating administrative tasks and supporting executive operations. With her organizational skills and attention to detail, she ensures our office runs smoothly and efficiently." data-email="jennie.clarke@company.com" data-phone="+1 (555) 234-5678" data-linkedin="https://linkedin.com/in/jennieclarke" data-twitter="https://twitter.com/jennieclarke">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+            <div alt="" class="u-image u-image-circle u-image-2" src="images/jennie.jpg" data-image-width="500" data-image-height="500"></div>
+            <h5 class="u-text u-text-4">Jennie Clarke</h5>
+            <p class="u-text u-text-5">Secretary</p>
+          </div>
+        </div>
+        
+        <!-- Add more team members here -->
+        <!-- Team Member 3 -->
+        <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-list-item-3 team-member" data-member-id="3" data-name="Hunter Norton" data-position="HR Manager" data-bio="Hunter Norton manages our human resources department, focusing on talent acquisition, employee development, and workplace culture. He is committed to creating a positive work environment where employees can thrive and grow professionally." data-email="hunter.norton@company.com" data-phone="+1 (555) 345-6789" data-linkedin="https://linkedin.com/in/hunternorton" data-twitter="https://twitter.com/hunternorton">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+            <div alt="" class="u-image u-image-circle u-image-3" src="images/hunter.jpg" data-image-width="500" data-image-height="500"></div>
+            <h5 class="u-text u-text-6">Hunter Norton</h5>
+            <p class="u-text u-text-7">HR Manager</p>
+          </div>
+        </div>
+        
+        <!-- Team Member 4 -->
+        <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item u-list-item-4 team-member" data-member-id="4" data-name="Betty Nilson" data-position="Chief Accountant" data-bio="Betty Nilson leads our accounting department with precision and expertise. She ensures financial accuracy, oversees all accounting operations, and provides strategic financial guidance to our executive team. Her attention to detail is unmatched." data-email="betty.nilson@company.com" data-phone="+1 (555) 456-7890" data-linkedin="https://linkedin.com/in/bettynilson" data-twitter="https://twitter.com/bettynilson">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+            <div alt="" class="u-image u-image-circle u-image-4" src="images/betty.jpg" data-image-width="500" data-image-height="500"></div>
+            <h5 class="u-text u-text-8">Betty Nilson</h5>
+            <p class="u-text u-text-9">Chief Accountant</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Member Detail Modal -->
+<div id="team-detail-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <div class="team-detail-container">
+      <div class="team-header">
+        <img class="team-detail-image" src="" alt="">
+        <div class="team-info">
+          <h1 class="team-detail-name"></h1>
+          <h2 class="team-detail-position"></h2>
+        </div>
+      </div>
+      
+      <div class="team-bio-section">
+        <h3>Biography</h3>
+        <p class="team-detail-bio"></p>
+      </div>
+      
+      <div class="team-contact-section">
+        <h3>Contact Information</h3>
+        <div class="contact-item">
+          <span class="contact-label">Email:</span>
+          <a href="#" class="team-detail-email"></a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Phone:</span>
+          <span class="team-detail-phone"></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Connect:</span>
+          <div class="social-links">
+            <a href="#" class="social-link linkedin" target="_blank">LinkedIn</a>
+            <a href="#" class="social-link twitter" target="_blank">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  /* Team Section Styles */
+  .u-list-item.team-member {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .u-list-item.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+/* Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    overflow-y: auto;
+  }
+  
+  .modal-content {
+    background-color: #ffffff;
+    margin: 2% auto;
+    padding: 0;
+    border: none;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    overflow: hidden;
+    animation: modalFadeIn 0.3s ease;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  
+  @keyframes modalFadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .close-modal {
+    color: var(--propellence-navy);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 25px;
+    line-height: 1;
+    transition: color 0.2s ease;
+  }
+  
+  .close-modal:hover {
+    color: var(--propellence-green);
+  }
+  
+  .team-detail-container {
+    padding: 30px;
+  }
+  
+  .team-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  
+  .team-detail-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+    border: 5px solid var(--propellence-cloud);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .team-info {
+    flex: 1;
+  }
+  
+  .team-detail-name {
+    color: var(--propellence-navy);
+    font-size: 2.2rem;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+  }
+  
+  .team-detail-position {
+    color: var(--propellence-blue);
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .team-bio-section {
+    margin-bottom: 30px;
+  }
+  
+  .team-bio-section h3 {
+    color: var(--propellence-navy);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .team-detail-bio {
+    color: var(--propellence-slate);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .team-contact-section {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+  
+  .team-contact-section h3 {
+    color: var(--propellence-navy);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .contact-item {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-label {
+    font-weight: 600;
+    color: var(--propellence-slate);
+    min-width: 80px;
+  }
+  
+  .team-detail-email {
+    color: var(--propellence-blue);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .team-detail-email:hover {
+    color: var(--propellence-green);
+    text-decoration: underline;
+  }
+  
+  .team-detail-phone {
+    color: var(--propellence-slate);
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .social-link.linkedin {
+    background-color: #0077B5;
+    color: white;
+  }
+  
+  .social-link.linkedin:hover {
+    background-color: #005885;
+  }
+  
+  .social-link.twitter {
+    background-color: #1DA1F2;
+    color: white;
+  }
+  
+  .social-link.twitter:hover {
+    background-color: #0d8bd9;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .team-header {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .team-detail-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .modal-content {
+      width: 95%;
+      margin: 5% auto;
+    }
+    
+    .team-detail-container {
+      padding: 20px;
+    }
+    
+    .social-links {
+      justify-content: center;
+    }
+  }
+</style>
+
+<script>
+  // Get the modal
+  const modal = document.getElementById('team-detail-modal');
+  const closeModal = document.getElementsByClassName('close-modal')[0];
+  const teamMembers = document.querySelectorAll('.team-member');
+  
+  // Add click event to each team member
+  teamMembers.forEach(member => {
+    member.addEventListener('click', function() {
+      const memberId = this.getAttribute('data-member-id');
+      const memberName = this.getAttribute('data-name');
+      const memberPosition = this.getAttribute('data-position');
+      const memberBio = this.getAttribute('data-bio');
+      const memberEmail = this.getAttribute('data-email');
+      const memberPhone = this.getAttribute('data-phone');
+      const memberLinkedin = this.getAttribute('data-linkedin');
+      const memberTwitter = this.getAttribute('data-twitter');
+      
+      // Populate modal with member data
+      document.querySelector('.team-detail-image').src = this.querySelector('.u-image').src;
+      document.querySelector('.team-detail-name').textContent = memberName;
+      document.querySelector('.team-detail-position').textContent = memberPosition;
+      document.querySelector('.team-detail-bio').textContent = memberBio;
+      document.querySelector('.team-detail-email').textContent = memberEmail;
+      document.querySelector('.team-detail-email').href = 'mailto:' + memberEmail;
+      document.querySelector('.team-detail-phone').textContent = memberPhone;
+      document.querySelector('.linkedin').href = memberLinkedin;
+      document.querySelector('.twitter').href = memberTwitter;
+      
+      // Show modal
+      modal.style.display = 'block';
+    });
+  });
+  
+  // Close modal when clicking the close button
+  closeModal.addEventListener('click', function() {
+    modal.style.display = 'none';
+  });
+  
+  // Close modal when clicking outside of it
+  window.addEventListener('click', function(event) {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+  
+  // Close modal with Escape key
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape' && modal.style.display === 'block') {
+      modal.style.display = 'none';
+    }
+  });
+</script>
