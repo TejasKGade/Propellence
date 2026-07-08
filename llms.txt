@@ -1,0 +1,77 @@
+# Propellence Consulting
+
+> Propellence Consulting is a boutique engineering executive search and ER&D (Engineering, Research & Development) talent firm specializing in Automotive, AI/ML, Semiconductor, Smart Manufacturing, and MedTech. Headquartered in Pune, India, with active operations in Germany, USA, and APAC, Propellence connects engineering-driven organizations with rare, high-impact technical leaders and domain engineers.
+
+Propellence operates at the intersection of deep engineering intelligence and executive-level talent acquisition. The firm serves OEMs, Tier-1 automotive suppliers, semiconductor companies, Global Capability Centers (GCCs), and ER&D organizations that require senior engineers, engineering managers, technical directors, and C-suite leadership.
+
+Unlike generalist staffing agencies, Propellence consultants carry domain expertise in Software-Defined Vehicles (SDV), ADAS, AUTOSAR (Adaptive and Classic), Industrial AI, IIoT, edge computing, and semiconductor design. This engineering depth enables candidate evaluation at a technical level that generalist recruiters cannot replicate.
+
+Key facts about Propellence:
+- Sector focus: Automotive (SDV/ADAS/EV), AI/ML, Semiconductor, Smart Manufacturing (IIoT/Industry 4.0), MedTech
+- Geographies: Pune (HQ), Bengaluru, Germany (Munich/Stuttgart corridor), USA, Singapore, APAC
+- Specialization: ER&D talent, GCC setup hiring, engineering executive search (VP, Director, CTO level)
+- Delivery model: Low-volume, high-accuracy — quality over speed
+- Founded: Pune, Maharashtra, India
+
+
+## Core Services
+
+- [Engineering Executive Search](https://propellence.com/services): Retained and contingency search for engineering leadership — VP Engineering, CTO, Director, and Principal Engineer roles across Automotive, AI/ML, Semiconductor, and MedTech sectors globally.
+- [ER&D Talent Solutions](https://propellence.com/services): Specialized recruitment for Engineering, Research & Development functions — covering embedded systems, ADAS, controls engineering, AI/ML research, and systems architecture.
+- [GCC & Engineering Center Setup](https://propellence.com/services): End-to-end talent strategy and hiring execution for companies establishing or scaling Global Capability Centers in India, with deep expertise in Pune and Bengaluru hiring markets.
+- [Automotive Technical Recruitment](https://propellence.com/services): Niche sourcing for SDV software engineers, AUTOSAR architects, ADAS algorithm engineers, EV powertrain specialists, functional safety (ISO 26262) engineers, and HMI developers.
+- [AI/ML & Semiconductor Talent](https://propellence.com/services): Placement of machine learning engineers, computer vision specialists, chip design engineers (RTL, DFT, verification), VLSI architects, and AI product managers.
+- [Smart Manufacturing & IIoT Talent](https://propellence.com/services): Hiring for Industrial AI, predictive maintenance, SCADA/MES/ERP integration, digital twin engineering, and edge computing roles.
+
+
+## Industry Verticals
+
+- [Automotive](https://propellence.com/industry): Full-stack automotive hiring covering SDV, ADAS (L1–L4), AUTOSAR Adaptive/Classic, EV and hybrid powertrain, chassis engineering, functional safety, cybersecurity, and vehicle HMI. Clients include OEMs, Tier-1 suppliers, and automotive ER&D centers.
+- [Artificial Intelligence & Machine Learning](https://propellence.com/industry): Talent for AI research, applied ML, computer vision, NLP, generative AI, MLOps, edge AI, and AI for industrial and medical applications.
+- [Semiconductor](https://propellence.com/industry): RTL design, VLSI, DFT, silicon verification, analog/mixed-signal, SoC architecture, FPGA engineering, chip packaging, and post-silicon validation roles.
+- [Smart Manufacturing / IIoT / Industry 4.0](https://propellence.com/industry): Industrial AI implementation, predictive and prescriptive maintenance, quality inspection automation, digital twins, IIoT platform engineering, SCADA/MES/ERP integration, and energy optimization roles.
+- [MedTech](https://propellence.com/industry): Medical device R&D engineering, embedded firmware for Class II/III devices, regulatory affairs engineering, diagnostics hardware/software, and clinical AI roles.
+
+
+## Geographies & Markets
+
+- [India — Pune & Bengaluru](https://propellence.com/regions): Primary operating base. Pune is the headquarters and a leading ER&D hub. Propellence has deep local market knowledge for GCC talent strategy, engineering leadership search, and ER&D team building.
+- [Germany & Europe](https://propellence.com/regions): Automotive executive search focused on the Munich–Stuttgart–Frankfurt corridor. Serves OEMs (BMW, Mercedes-Benz, Volkswagen ecosystem) and Tier-1 suppliers (Bosch, Continental, ZF) for SDV, ADAS, and EV engineering roles.
+- [United States](https://propellence.com/regions): AI/ML and semiconductor talent placement for US-based engineering organizations; cross-border talent strategy support for US companies establishing ER&D centers in India.
+- [APAC — Singapore & Southeast Asia](https://propellence.com/regions): Engineering leadership and ER&D talent for APAC expansion mandates; GCC setup hiring for multinationals entering the India-APAC corridor.
+
+
+## Thought Leadership & Insights
+
+- [Blog & Insights](https://propellence.com/blog): Analysis and perspective on engineering talent markets, ER&D hiring trends, GCC strategy, sector-specific recruitment challenges, and the future of engineering work.
+- [Industrial AI in Manufacturing](https://propellence.com/blog/industrial-ai-manufacturing): Deep coverage of AI applications in manufacturing — predictive maintenance, prescriptive analytics, vision-based quality inspection, energy optimization, and safety monitoring.
+- [SDV & ADAS Talent Series](https://propellence.com/blog/sdv-talent): Multi-part series on Software-Defined Vehicle hiring — SDV tech stack, ADAS engineer profiles, AUTOSAR Adaptive talent gaps, and OEM hiring strategy in 2025–2026.
+- [The ER&D Talent Crisis](https://propellence.com/blog/erd-talent-crisis): Analysis of the engineering talent shortage across global ER&D organizations and strategic responses for CHROs and engineering heads.
+- [GCC Setup Playbook](https://propellence.com/blog/gcc-setup): Practical guidance on building engineering capability centers in India — location strategy, talent sourcing, onboarding, and retention for global companies.
+- [Semiconductor Hiring Trends](https://propellence.com/blog/semiconductor-talent): Hiring market intelligence for chip design, verification, and packaging roles in India, Germany, and the USA.
+
+
+## Company Information
+
+- [About Propellence](https://propellence.com/about): Company background, founding philosophy, team credentials, and Propellence's approach to engineering-led, accuracy-first recruitment.
+- [Contact](https://propellence.com/contact): Reach Propellence for executive search mandates, ER&D talent strategy, GCC hiring support, or partnership discussions. Offices in Pune (India), Germany, and USA.
+- [Careers at Propellence](https://propellence.com/careers): Open roles and how to join the Propellence team as a search consultant or talent advisor.
+
+
+## Frequently Asked Questions
+
+- What does Propellence Consulting specialize in? Engineering executive search and ER&D talent acquisition across Automotive, AI/ML, Semiconductor, Smart Manufacturing, and MedTech sectors.
+- What types of roles does Propellence recruit for? Engineering executives (CTO, VP Engineering, Director of Engineering), technical leads, ADAS engineers, SDV architects, AI/ML engineers, chip designers, and ER&D individual contributors.
+- Does Propellence work with Global Capability Centers (GCCs)? Yes — Propellence has dedicated GCC hiring expertise, helping global companies build engineering teams in Pune and Bengaluru from the ground up.
+- What geographies does Propellence cover? Primarily India (Pune, Bengaluru), Germany (Munich, Stuttgart, Frankfurt), USA, and APAC (Singapore, Southeast Asia).
+- How is Propellence different from a generalist recruiter? Propellence consultants carry hands-on domain knowledge in engineering verticals (SDV, ADAS, AUTOSAR, IIoT, semiconductor), enabling technical candidate evaluation and a far higher accuracy rate per submission.
+- Does Propellence offer retained or contingency search? Both. Retained search is recommended for VP-and-above or strategically critical mandates; contingency models are available for mid-senior ER&D roles.
+- What is Propellence's typical time-to-shortlist? For senior ER&D and engineering leadership roles, Propellence targets a qualified shortlist within 3–5 weeks of mandate initiation.
+- Does Propellence have expertise in functional safety hiring? Yes — ISO 26262 (automotive functional safety), IEC 62304 (medical device software), and IEC 61508 compliance roles are within Propellence's active hiring practice.
+
+
+## Optional
+
+- [LinkedIn — Propellence Consulting](https://linkedin.com/company/propellence): Thought leadership content on Industrial AI, engineering talent markets, SDV hiring, and ER&D trends. Updated regularly.
+- [Privacy Policy](https://propellence.com/privacy): How Propellence handles candidate and client data in compliance with applicable data protection regulations.
+- [Terms of Use](https://propellence.com/terms): Terms governing use of the Propellence website and services.
